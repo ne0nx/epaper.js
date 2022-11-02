@@ -1,5 +1,5 @@
 {
-    "name": "@epaperjs/rpi-2in7",
+    "name": "@epaperjs/rpi-2in9-v2",
     "version": "2.0.5",
     "private": false,
     "description": "ePaper.js support for Waveshare 2.9V2\" display",
