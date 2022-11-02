@@ -9,7 +9,7 @@ Node bindings for [Waveshare 2.7" display](https://www.waveshare.com/wiki/2.7inc
 ## Installation
 
 ```
-npm i -g @epaperjs/rpi-2in7
+npm i -g @epaperjs/rpi-2in9-v2
 ```
 
 ## License
