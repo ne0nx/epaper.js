@@ -78,8 +78,8 @@ async function getRpi3In7(orientation?: Orientation, colorMode?: ColorMode): Pro
 
 async function getRpi2in9V2(orientation?: Orientation, colorMode?: ColorMode): Promise<DisplayDevice> {
     try {
-        const { Rpi3In9V2 } = await import('@epaperjs/rpi-2in9-v2');
-        return new Rpi3In9V2(orientation, colorMode);
+        const { Rpi2In9V2 } = await import('@epaperjs/rpi-2in9-v2');
+        return new Rpi2In9V2(orientation, colorMode);
     } catch (e) {
         throw new Error('Failed to import @epaperjs/rpi-3in7, make sure it is installed');
     }

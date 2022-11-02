@@ -3,7 +3,7 @@ import { ImageOptions } from '@epaperjs/core/src/image/imageOptions';
 import bindings from 'bindings';
 import { Driver } from './driver';
 
-export class Rpi2In9v2 implements DisplayDevice {
+export class Rpi2In9V2 implements DisplayDevice {
     public readonly height: number;
     public readonly width: number;
     private readonly driver: Driver;
