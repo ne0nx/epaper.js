@@ -218,7 +218,7 @@ static int DEV_Equipment_Testing(void)
 
 	printf("Current environment: ");
 #ifdef RPI
-	char systems[][9] = {"Raspbian", "Debian", "NixOS"};
+	char systems[][9] = {"Raspbian", "Debian", "NixOS", "Ubuntu"};
 	int detected = 0;
 	for(int i=0; i<3; i++) {
 		if (strstr(issue_str, systems[i]) != NULL) {
