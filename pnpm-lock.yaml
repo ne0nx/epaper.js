@@ -36,7 +36,7 @@ importers:
       '@epaperjs/rpi-3in7': link:../rpi-3in7
       '@epaperjs/rpi-4in2': link:../rpi-4in2
       '@epaperjs/rpi-7in5-v2': link:../rpi-7in5-v2
-      '@epaperjs/rpi-2in9-v2': link:../rpi-7in9-v2
+      '@epaperjs/rpi-2in9-v2': link:../rpi-2in9-v2
       '@types/yargs': 17.0.7
 
   packages/core:
