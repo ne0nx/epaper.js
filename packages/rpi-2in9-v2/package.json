@@ -1,6 +1,6 @@
 {
     "name": "@epaperjs/rpi-2in9-v2",
-    "version": "2.0.5",
+    "version": "3.0.0",
     "private": false,
     "description": "ePaper.js support for Waveshare 2.9V2\" display",
     "author": "samsonmking <samson@samsonmking.com>",
@@ -9,7 +9,7 @@
         "url": "https://github.com/samsonmking/epaper.js/issues"
     },
     "license": "MIT",
-    "main": "lib/rpi2In9-v2.js",
+    "main": "lib/rpi2In9v2.js",
     "files": [
         "lib",
         "src/c",
