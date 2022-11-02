@@ -252,10 +252,10 @@ static int DEV_Equipment_Testing(void)
 void DEV_GPIO_Init(void)
 {
 #ifdef RPI
-	EPD_RST_PIN     = 17;
-	EPD_DC_PIN      = 25;
-	EPD_CS_PIN      = 8;
-	EPD_BUSY_PIN    = 24;
+	EPD_RST_PIN     = 11;
+	EPD_DC_PIN      = 22;
+	EPD_CS_PIN      = 24;
+	EPD_BUSY_PIN    = 18;
 #elif JETSON
 	EPD_RST_PIN     = GPIO17;
 	EPD_DC_PIN      = GPIO25;
