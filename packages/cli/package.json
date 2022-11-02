@@ -65,7 +65,7 @@
         "@epaperjs/rpi-3in7": {
             "optional": true
         },
-        "@epaperjs/rpi-2in9": {
+        "@epaperjs/rpi-2in9-v2": {
             "optional": true
         }
     }
